@@ -269,6 +269,12 @@ height: 50%;
   gap: 1.5rem;
   padding: 2rem;
   
+  
+}
+.skills-grid a{
+  color:white;
+  text-decoration: none;
+  
 }
 
 .skill-card {
