@@ -28,6 +28,8 @@
     top: 0;
     z-index: 1000;
     background-color: #101010;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
    
   }
 
@@ -101,7 +103,7 @@
   }
   
   .nav-links li a:hover {
-    color: #00d427;
+    color:white;
   }
   
   .section {
@@ -145,8 +147,7 @@
   color: blue;
   
    font-size: 3rem;
- 
- 
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    animation: glow 1s ease-in-out infinite alternate;
      background: -webkit-linear-gradient(#8c86f6, #3005f1);
      -webkit-background-clip: text;
@@ -226,9 +227,21 @@
   overflow: hidden;
 
 }
+.certificate-card:hover{
+  transform: translateY(-5px);
+ 
+  box-shadow:  0 0 8px 10px #1267f1;
+    
+    cursor: pointer;
+
+}
 
 .card:hover {
   transform: translateY(-5px);
+ 
+  box-shadow: 0 0 8px 10px #4752e1;
+    
+    cursor: pointer;
 }
 
 .card img {
@@ -670,3 +683,7 @@ height: 40%;
   text-align: center;
   display: inline-block;
 }
+
+
+
+
